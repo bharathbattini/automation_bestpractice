@@ -1,0 +1,25 @@
+{
+  "name": "automation_bestpractice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:qa": "ENV=qa npx playwright test",
+    "test:uat": "ENV=uat npx playwright test",
+    "test:prod": "npx playwright test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-Bharath-Personal:bharathbattini/automation_bestpractice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.47.2",
+    "@types/node": "^22.7.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
