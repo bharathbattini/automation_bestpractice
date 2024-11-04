@@ -40,13 +40,12 @@ test.describe('Example of using Best Locators on each element', () => {
 
     });
 
-    test.only('To check the Headers are clickable', async ({ page }) => {
+    test('To check the Headers are clickable', async ({ page }) => {
 
         await page.getByText(HEADERNAME.calculators).click();
         await expect(page).toHaveURL('calculator');
+        await page.getAttribute(HEADERNAME.about, '2000');
 
     });
-
-
 
 });
