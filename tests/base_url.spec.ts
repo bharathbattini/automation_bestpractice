@@ -16,12 +16,4 @@ test.describe('Config the Base URL using .env', () => {
             console.log(`Did not run as expected, ended up at ${page.url()}`);
     });
 
-
-    test.afterAll('Tear Down', async ({ page }) => {
-
-        await page.close();
-        console.log('Done with tests');
-
-    })
-
 });
