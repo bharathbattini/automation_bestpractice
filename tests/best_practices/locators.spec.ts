@@ -17,7 +17,6 @@ const HEADERNAME = {
 
 } as const
 
-
 const SUBHEADERNAME = {
 
     ourStory: 'Our Story',
@@ -28,7 +27,6 @@ const SUBHEADERNAME = {
     about: 'About',
 
 } as const
-
 
 test.describe('Example of using Best Locators on each element', () => {
 
@@ -47,5 +45,6 @@ test.describe('Example of using Best Locators on each element', () => {
         await page.getAttribute(HEADERNAME.about, '2000');
 
     });
+
 
 });

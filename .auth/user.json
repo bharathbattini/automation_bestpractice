@@ -1,0 +1,65 @@
+{
+  "cookies": [
+    {
+      "name": ".AspNetCore.Correlation.jdijDt3RoZikkJVA8Y8HBrO-LS8H8eatBnQ-K8-egQY",
+      "value": "N",
+      "domain": "newqa.account.onefin.app",
+      "path": "/signin-google",
+      "expires": 1732302794.591557,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.1.335819310.1732301893",
+      "domain": ".onefin.app",
+      "path": "/",
+      "expires": 1766861893.106499,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Host-GAPS",
+      "value": "1:Tqa2ibT1HpmGENWfSwAsyV9QUe8ORQ:dxSae6ViFQVafFmN",
+      "domain": "accounts.google.com",
+      "path": "/",
+      "expires": 1766861894.872396,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga_X921TM0DC0",
+      "value": "GS1.1.1732301893.1.0.1732301894.0.0.0",
+      "domain": ".onefin.app",
+      "path": "/",
+      "expires": 1766861894.998904,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "OTZ",
+      "value": "7833298_34_34__34_",
+      "domain": "accounts.google.com",
+      "path": "/",
+      "expires": 1734893895,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "NID",
+      "value": "519=CPlz18QoVJOyMVOEmOqpT7NaegPh3uPQUxb3rj7lhp1O1Eb93-MjQJ9bljTcaNZIjrAkPJxC7yOidU7uk4Ok52hWUEQxd1HT7G5pY29CnamuFYLoszYuWbuHoxwOSYCZ1Fbd7Jk-aZYUFs8OWsvxqtzl2gRhmcpMJ5LKRdvslLfnlPGyHKWaLb9ZJaU",
+      "domain": ".google.com",
+      "path": "/",
+      "expires": 1748113099.834346,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    }
+  ],
+  "origins": []
+}
